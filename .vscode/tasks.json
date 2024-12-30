@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "install tensorflow",
+			"command": "pip",
+			"args": [
+				"install",
+				"tensorflow"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
